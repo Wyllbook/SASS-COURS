@@ -1,0 +1,7 @@
+section {
+  height: 800px;
+  @include center;
+  p {
+    text-align: center;
+  }
+}

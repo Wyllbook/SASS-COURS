@@ -1,0 +1,12 @@
+nav {
+  background: pink;
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    li {
+      color: blue;
+      list-style: none;
+    }
+  }
+}

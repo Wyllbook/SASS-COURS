@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "font-1";
+  src: url(../fonts/Montserrat-VariableFont_wght.ttf);
+}
+body {
+  background: green;
+  font-family: "font-1", sans-serif;
+}
+
+nav {
+  background: pink;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav ul li {
+  color: blue;
+  list-style: none;
+}
+
+h1 {
+  font-family: "font-1", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  color: yellow;
+}
+h1::after {
+  content: "*";
+  position: absolute;
+  transform: translateY(-6px);
+  color: pink;
+}
+h1:hover:after {
+  font-size: 2rem;
+}
+
+section {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section p {
+  text-align: center;
+}/*# sourceMappingURL=index.css.map */

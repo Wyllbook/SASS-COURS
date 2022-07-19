@@ -1,0 +1,15 @@
+h1 {
+  font-family: "font-1", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  color: $color1;
+  &::after {
+    content: "*";
+    position: absolute;
+    transform: translateY(-6px);
+    color: pink;
+  }
+  &:hover:after {
+    font-size: 2rem;
+  }
+}
